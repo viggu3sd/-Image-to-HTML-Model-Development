@@ -2,9 +2,6 @@
 The goal of this assignment is to develop a deep learning model that takes an image as input and generates the corresponding HTML code. The dataset used for this task is WebSight from Hugging Face, which consists of images and their corresponding HTML representations.
 Here's a **README.md** file for your project:  
 
----
-
-# Image-to-HTML Model Development  
 
 ## 📌 Overview  
 This project focuses on developing a deep learning model that takes an **image as input** and generates the corresponding **HTML code**. The model is trained on the **WebSight dataset** from Hugging Face, which consists of image-HTML pairs.  
@@ -88,6 +85,4 @@ For any queries, feel free to reach out:
 - **Vignesh **  
 - **Email:** phyvignesh3@gmail.com
 
----
 
-This **README** provides a complete overview of your project, ensuring clarity for reviewers and future modifications. 🚀 Let me know if you need any updates!
