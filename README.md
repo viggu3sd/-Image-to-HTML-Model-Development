@@ -6,7 +6,7 @@ Here's a **README.md** file for your project:
 ## 📌 Overview  
 This project focuses on developing a deep learning model that takes an **image as input** and generates the corresponding **HTML code**. The model is trained on the **WebSight dataset** from Hugging Face, which consists of image-HTML pairs.  
 
-## 🚀 Objective  
+##  Objective  
 - Convert images into HTML using **Vision-Language Models**.  
 - Compare different approaches (CLIP-GPT2, BLIP, CNN-BiLSTM).  
 - Evaluate model performance using **BLEU Score** and **Token-Level Accuracy**.  
@@ -18,7 +18,7 @@ This project focuses on developing a deep learning model that takes an **image a
   - HTML is **tokenized** before training.  
   - Images are resized and normalized for input into models.  
 
-## 🏗️ Approach  
+## Approach  
 
 ### ✅ Model Selection  
 Three models were explored:  
