@@ -20,13 +20,13 @@ This project focuses on developing a deep learning model that takes an **image a
 
 ## Approach  
 
-### ✅ Model Selection  
+###  Model Selection  
 Three models were explored:  
 1. **CLIP-GPT2:** Uses CLIP for image encoding and GPT-2 for HTML generation.  
 2. **BLIP:** Treats HTML as a caption and generates structured HTML using a transformer-based architecture.  
 3. **CNN-BiLSTM:** Extracts image features using CNN and generates sequences using BiLSTM.  
 
-### ✅ Implementation Steps  
+### Implementation Steps  
 1. **Data Preprocessing**  
    - Tokenized HTML using a **transformer-based tokenizer**.  
    - Converted images into tensors for model training.  
@@ -50,10 +50,10 @@ Three models were explored:
 | **BLIP**      | 0.56 |
 | **CNN-BiLSTM** | 0.38 |
 
-### 🔥 Best Performing Model: **BLIP**  
+###  Best Performing Model: **BLIP**  
 BLIP outperformed the other models with a BLEU score of **0.56**, making it the best choice for image-to-HTML conversion.  
 
-## 🔜 Next Steps  
+##  Next Steps  
 - Fine-tune the models for more **epochs** to improve accuracy.  
 - Implement **Beam Search** instead of greedy decoding.  
 - Deploy the model via **Gradio** or **Flask** for real-time testing.  
